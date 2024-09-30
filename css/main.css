@@ -100,4 +100,6 @@ main {
 
 .cart-interaction:hover {
   background-color: #1a4032;
+  cursor: pointer;
+  transition: .2s;
 }
