@@ -65,6 +65,29 @@ main {
   font-weight: bold;
 }
 
+.discounted-price:hover {
+  animation: shake 1s infinite ease-out;
+  cursor: default;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  35% {
+    transform: rotate(15deg);
+  }
+
+  75% {
+    transform: rotate(-15deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 .base-price {
   color: #6c7289;
   font-family: "Fraunces", serif;
@@ -101,20 +124,20 @@ main {
 .cart-interaction:hover {
   background-color: #1a4032;
   cursor: pointer;
-  transition: .2s;
+  transition: 0.2s;
   animation: zoomInOut 1s infinite ease-out;
 }
 
 @keyframes zoomInOut {
-    0% {
-        transform: scale(1)
-    }
+  0% {
+    transform: scale(1);
+  }
 
-    50% {
-        transform: scale(1.1);
-    }
+  50% {
+    transform: scale(1.1);
+  }
 
-    100% {
-        transform: scale(1);
-    }
+  100% {
+    transform: scale(1);
+  }
 }
