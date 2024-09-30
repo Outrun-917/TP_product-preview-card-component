@@ -1,0 +1,104 @@
+/* font-family: "Fraunces", serif; */
+/* font-family: "Montserrat", sans-serif; */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2eae2;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  border-radius: 16px;
+}
+
+.preview-image img {
+    min-height: 100%;
+    border-radius: 16px 0 0 16px;
+}
+
+.preview-info {
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-class {
+    font-family: "Montserrat", sans-serif;
+    color: #6C7289;
+    font-size: 12px;
+}
+
+.product-name {
+    font-family: "Fraunces", serif;
+    font-size: 32px;
+    color: black;
+}
+
+.product-description {
+    font-family: "Montserrat", sans-serif;
+    color: #6C7289;
+    font-size: 14px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-around;
+}
+
+.discounted-price {
+    color: #3D8168;
+    font-family: "Fraunces", serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.base-price {
+    color: #6C7289;
+    font-family: "Fraunces", serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: line-through;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.cart-interaction {
+  background-color: #3d8168;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-interaction a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.cart-interaction p {
+    margin-left: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.cart-interaction:hover {
+    background-color: #1A4032;
+}
