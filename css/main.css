@@ -117,7 +117,6 @@ main {
 .cart-interaction:hover {
   background-color: #1a4032;
   cursor: pointer;
-  transition: 0.2s;
   animation: zoomInOut 1s infinite ease-out;
 }
 
