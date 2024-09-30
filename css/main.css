@@ -60,11 +60,7 @@ main {
   font-family: "Fraunces", serif;
   font-size: 32px;
   font-weight: bold;
-}
-
-.discounted-price:hover {
   animation: shake 1s infinite ease-in-out;
-  cursor: default;
 }
 
 @keyframes shake {
