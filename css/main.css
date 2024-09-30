@@ -22,57 +22,57 @@ main {
 }
 
 .preview-image img {
-    min-height: 100%;
-    border-radius: 16px 0 0 16px;
+  min-height: 100%;
+  border-radius: 16px 0 0 16px;
 }
 
 .preview-info {
-    margin-left: 32px;
-    margin-right: 32px;
-    margin-top: auto;
-    margin-bottom: auto;
-    display: flex;
-    flex-direction: column;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .product-class {
-    font-family: "Montserrat", sans-serif;
-    color: #6C7289;
-    font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  color: #6c7289;
+  font-size: 12px;
 }
 
 .product-name {
-    font-family: "Fraunces", serif;
-    font-size: 32px;
-    color: black;
+  font-family: "Fraunces", serif;
+  font-size: 32px;
+  color: black;
 }
 
 .product-description {
-    font-family: "Montserrat", sans-serif;
-    color: #6C7289;
-    font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: #6c7289;
+  font-size: 14px;
 }
 
 .price {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .discounted-price {
-    color: #3D8168;
-    font-family: "Fraunces", serif;
-    font-size: 32px;
-    font-weight: bold;
+  color: #3d8168;
+  font-family: "Fraunces", serif;
+  font-size: 32px;
+  font-weight: bold;
 }
 
 .base-price {
-    color: #6C7289;
-    font-family: "Fraunces", serif;
-    font-size: 13px;
-    font-weight: bold;
-    text-decoration: line-through;
-    margin-top: auto;
-    margin-bottom: auto;
+  color: #6c7289;
+  font-family: "Fraunces", serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: line-through;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .cart-interaction {
@@ -92,13 +92,12 @@ main {
 }
 
 .cart-interaction p {
-    margin-left: 8px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 14px;
+  margin-left: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
 }
 
-
 .cart-interaction:hover {
-    background-color: #1A4032;
+  background-color: #1a4032;
 }
